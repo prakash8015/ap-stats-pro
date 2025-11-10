@@ -1,7 +1,13 @@
+
+"use client"
+
+
+
 "use client"
 
 import { Card } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
+
 import {
   BarChart,
   Bar,
@@ -18,6 +24,7 @@ import {
   Cell,
 } from "recharts"
 import { TrendingUp, Target, Flame, Clock } from "lucide-react"
+
 
 export default function ProgressPage() {
   // Sample data
